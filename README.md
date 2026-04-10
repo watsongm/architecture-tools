@@ -6,10 +6,31 @@ A curated collection of resources for modern software architecture — covering 
 
 ## Contents
 
+- [Pattern Library](#pattern-library)
 - [Architecture as Code](#architecture-as-code)
 - [Architecture Standards](#architecture-standards)
 - [Architecture Patterns](#architecture-patterns)
 - [Agent Skills for the SDLC](#agent-skills-for-the-sdlc)
+
+---
+
+## Pattern Library
+
+Architecture pattern reference files — each covering intent, structure, trade-offs, and implementation guidance.
+
+| Pattern | Description |
+| ------- | ----------- |
+| [Layered Architecture](./layered-architecture.md) | Horizontal tiers (Presentation → Application → Domain → Infrastructure) with unidirectional dependencies. The standard starting point for most systems. |
+| [Event-Driven Architecture](./event-driven-architecture.md) | Components communicate through immutable events via a broker. Decouples producers and consumers in time and logic. |
+| [Microservices Architecture](./microservices-architecture.md) | Independently deployable services, each owning a single business capability and its data. |
+| [CQRS & Event Sourcing](./cqrs-event-sourcing.md) | Separates read and write models; persists state as an append-only event log rather than current values. |
+| [Domain-Driven Design](./domain-driven-design.md) | Centres design on the business domain using a shared language, bounded contexts, and rich domain objects. |
+| [Hexagonal Architecture](./hexagonal-architecture.md) | Domain at the centre; all external systems connect through explicitly defined ports and adapters. |
+| [Microkernel Architecture](./microkernel-architecture.md) | Minimal stable core extended by independently developed and deployed plugins. |
+| [Space-Based Architecture](./space-based-architecture.md) | Distributed in-memory data grid across processing units eliminates the database as the scaling bottleneck. |
+| [Serverless Architecture](./serverless-architecture.md) | Functions as the unit of deployment; cloud provider manages all infrastructure, scaling, and availability. |
+| [Multi-Tenancy Patterns](./multi-tenancy-patterns.md) | Silo, Pool, and Bridge isolation models for hosting multiple customers on a shared platform. |
+| [Saga Pattern](./saga-pattern.md) | Coordinates distributed workflows across services using local transactions paired with compensating actions. |
 
 ---
 
