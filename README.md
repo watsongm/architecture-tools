@@ -100,6 +100,22 @@ Collections of Claude Code skills, subagents, and AI agent toolkits covering the
 
 ---
 
+## Curated Prompts
+
+Repositories of curated AI prompts relevant to software architecture, technical design, and AI-assisted development workflows.
+
+| Resource | Description |
+| -------- | ----------- |
+| [ai-architecture-prompts](https://github.com/Alexanderdunlop/ai-architecture-prompts) | Prompts designed to teach Claude/Cursor to architect replaceable, modular systems — based on Eskil Steenberg's architecture lecture. |
+| [chatgpt-architecture-coach](https://github.com/mikaelvesavuori/chatgpt-architecture-coach) | Priming prompts for structured architectural discussions, design reviews, and technical trade-off analysis. |
+| [awesome-ai-dev-prompts](https://github.com/piyushrajyadav/awesome-ai-dev-prompts) | 76 battle-tested system prompts encoding senior specialist knowledge across architecture, design reviews, and technical planning. |
+| [awesome-claude-prompts](https://github.com/langgptai/awesome-claude-prompts) | Claude-specific prompt collection covering architecture planning, code review, and technical documentation generation. |
+| [awesome-reviewers](https://github.com/baz-scm/awesome-reviewers) | 8,000+ specialised code review prompts distilled from real pull request comments — useful for architectural review and design validation. |
+| [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | Extracted system prompts from 25+ AI coding tools (Claude Code, Cursor, Devin, Replit, Windsurf) — a comparative reference across agent designs. |
+| [awesome-system-prompts](https://github.com/EliFuzz/awesome-system-prompts) | System prompts and tool definitions from major AI coding agents — useful for understanding how different tools model development workflows. |
+
+---
+
 ## Contributing
 
 PRs welcome. Please follow the existing table format and include a brief description of what each resource covers and why it belongs here.
